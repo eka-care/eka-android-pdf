@@ -69,9 +69,9 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
 
-                groupId = "com.github.saroj"
-                artifactId = "reader"
-                version = "0.1.0"
+                groupId = "com.github.eka-care"
+                artifactId = "eka-android-pdf"
+                version = "0.0.1"
             }
         }
     }
