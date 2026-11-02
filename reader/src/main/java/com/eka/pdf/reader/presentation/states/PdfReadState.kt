@@ -1,6 +1,6 @@
-package com.example.reader.presentation.states
+package com.eka.pdf.reader.presentation.states
 
-import com.example.reader.data.model.PdfDocuments
+import com.eka.pdf.reader.data.model.PdfDocuments
 
 sealed class PdfReadState {
     object Idle : PdfReadState()

@@ -1,4 +1,4 @@
-package com.example.reader.presentation.states
+package com.eka.pdf.reader.presentation.states
 
 sealed class PdfSource {
     data class Url(val url: String) : PdfSource()

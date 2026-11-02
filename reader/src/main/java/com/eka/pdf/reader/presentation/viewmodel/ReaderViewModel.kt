@@ -1,11 +1,11 @@
-package com.example.reader.presentation.viewmodel
+package com.eka.pdf.reader.presentation.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.reader.domain.usecase.ReadPdfUseCase
-import com.example.reader.presentation.states.PdfReadState
-import com.example.reader.presentation.states.PdfSource
+import com.eka.pdf.reader.domain.usecase.ReadPdfUseCase
+import com.eka.pdf.reader.presentation.states.PdfReadState
+import com.eka.pdf.reader.presentation.states.PdfSource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
