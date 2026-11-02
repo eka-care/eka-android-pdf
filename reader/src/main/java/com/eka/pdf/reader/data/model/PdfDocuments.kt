@@ -1,4 +1,4 @@
-package com.example.reader.data.model
+package com.eka.pdf.reader.data.model
 
 data class PdfDocuments(
     val pageCount: Int,

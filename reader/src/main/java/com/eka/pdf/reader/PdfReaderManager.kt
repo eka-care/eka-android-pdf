@@ -1,4 +1,4 @@
-package com.example.reader
+package com.eka.pdf.reader
 
 import android.app.Application
 import android.content.Context
@@ -9,13 +9,13 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import com.example.reader.data.repository.PdfReaderImpl
-import com.example.reader.domain.repository.PdfReadRepository
-import com.example.reader.domain.usecase.ReadPdfUseCase
-import com.example.reader.presentation.components.PdfDocumentViewer
-import com.example.reader.presentation.states.PdfReadState
-import com.example.reader.presentation.states.PdfSource
-import com.example.reader.presentation.viewmodel.ReaderViewModel
+import com.eka.pdf.reader.data.repository.PdfReaderImpl
+import com.eka.pdf.reader.domain.repository.PdfReadRepository
+import com.eka.pdf.reader.domain.usecase.ReadPdfUseCase
+import com.eka.pdf.reader.presentation.components.PdfDocumentViewer
+import com.eka.pdf.reader.presentation.states.PdfReadState
+import com.eka.pdf.reader.presentation.states.PdfSource
+import com.eka.pdf.reader.presentation.viewmodel.ReaderViewModel
 
 class PdfReaderManager(context: Context) {
 

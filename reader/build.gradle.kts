@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.reader"
+    namespace = "com.eka.pdf.reader"
     compileSdk = 34
 
     defaultConfig {

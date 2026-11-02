@@ -1,13 +1,13 @@
-package com.example.reader.data.repository
+package com.eka.pdf.reader.data.repository
 
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.pdf.PdfRenderer
 import android.net.Uri
-import com.example.reader.data.model.PdfDocuments
-import com.example.reader.data.model.PdfPage
-import com.example.reader.domain.repository.PdfReadRepository
+import com.eka.pdf.reader.data.model.PdfDocuments
+import com.eka.pdf.reader.data.model.PdfPage
+import com.eka.pdf.reader.domain.repository.PdfReadRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
