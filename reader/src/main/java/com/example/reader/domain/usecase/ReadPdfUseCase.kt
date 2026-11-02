@@ -1,8 +1,8 @@
-package com.eka.pdf.reader.domain.usecase
+package com.example.reader.domain.usecase
 
 import android.net.Uri
-import com.eka.pdf.reader.data.model.PdfDocuments
-import com.eka.pdf.reader.domain.repository.PdfReadRepository
+import com.example.reader.data.model.PdfDocuments
+import com.example.reader.domain.repository.PdfReadRepository
 
 class ReadPdfUseCase(private val pdfReadRepository: PdfReadRepository) {
     suspend operator fun invoke(url: String, isImage: Boolean = false): PdfDocuments {

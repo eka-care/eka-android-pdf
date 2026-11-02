@@ -1,4 +1,4 @@
-package com.eka.pdf.reader.presentation.components
+package com.example.reader.presentation.components
 
 import android.graphics.Bitmap
 import androidx.compose.foundation.Image
@@ -30,8 +30,8 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
-import com.eka.pdf.reader.data.model.PdfDocuments
-import com.eka.pdf.reader.data.model.PdfPage
+import com.example.reader.data.model.PdfDocuments
+import com.example.reader.data.model.PdfPage
 
 @Composable
 fun PdfDocumentViewer(pdfDocuments: PdfDocuments, modifier: Modifier = Modifier) {

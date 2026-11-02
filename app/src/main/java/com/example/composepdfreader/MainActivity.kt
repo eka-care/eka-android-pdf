@@ -26,8 +26,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.composepdfreader.ui.theme.ComposePdfReaderTheme
-import com.eka.pdf.reader.PdfReaderManager
-import com.eka.pdf.reader.presentation.states.PdfSource
+import com.example.reader.PdfReaderManager
+import com.example.reader.presentation.states.PdfSource
 
 class MainActivity : ComponentActivity() {
 

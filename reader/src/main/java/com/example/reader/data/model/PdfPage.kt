@@ -1,4 +1,4 @@
-package com.eka.pdf.reader.data.model
+package com.example.reader.data.model
 
 import android.graphics.Bitmap
 

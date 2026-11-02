@@ -1,4 +1,4 @@
-package com.eka.pdf.reader
+package com.example.reader
 
 import org.junit.Test
 
